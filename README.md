@@ -17,7 +17,7 @@ This is a smaller dataset, `Shakespearean Text.`
 This is an additional setup for cleaner experimentation. This consists of the `argparse` library, used for arguments within the command line. So, using this file, you can pass arguments within the command line to ensure those configurations are loaded for training. 
 
 ### modules.py
-Another master file has all the modules of a transformer, including Vision Transformer, FeedForward Network, PatchEmbeddings, etc.
+Another master file has all the modules of a transformer. 
 
 ### train_gpt2.py
 As the name suggests, this is the master file for training functions and training loop. This is the file that will be run over the command line to train GPT-2.
